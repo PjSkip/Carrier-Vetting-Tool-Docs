@@ -3,12 +3,11 @@
 Copyright (c) 2026 **ShipSierra.com**. All rights reserved.
 Developer: **Ivan Karpenko**.
 
-Chrome extension and matching Tampermonkey userscript that scans open Gmail threads for MC numbers and shows Highway and Carrier411 carrier-vetting results without leaving the inbox.
+Chrome extension that scans open Gmail threads for MC numbers and shows Highway and Carrier411 carrier-vetting results without leaving the inbox.
 
 - **Full name:** Carrier Vetting Tool in Gmail (Highway.com and Carrier411)
 - **Chrome Web Store item ID:** `hpejmgmlnjcfjccehkdgnjgdafmfjjao`
-- **Userscript version:** 2026.39.4.1 (October 1, 2026)
-- **Userscript file:** [GmailHighwayCarrier411MCBadges.user.js](https://github.com/PjSkip/TamperMonkeyScripts/blob/main/GmailHighwayCarrier411MCBadges.user.js)
+- **Version:** 2026.39.4.1 (October 1, 2026)
 
 ## What it does
 

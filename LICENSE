@@ -4,10 +4,6 @@ Developer: Ivan Karpenko.
 This repository documents Carrier Vetting Tool in Gmail (Highway.com and Carrier411)
 (Chrome Web Store item ID: hpejmgmlnjcfjccehkdgnjgdafmfjjao).
 
-The matching userscript is:
-GmailHighwayCarrier411MCBadges.user.js
-in the PjSkip/TamperMonkeyScripts repository (version 2026.39.4.1).
-
 This documentation and the related software are proprietary to ShipSierra.com.
 
 Copying, modification, or redistribution of this source, in whole or in part,
