@@ -1,10 +1,16 @@
 Copyright (c) 2026 ShipSierra.com. All rights reserved.
 Developer: Ivan Karpenko.
 
-This repository and all source code in it are proprietary to ShipSierra.com.
+This repository documents the Carrier Vetting Tool in Gmail (Highway.com and Carrier411)
+(Chrome Web Store item hpejmgmlnjcfjccehkdgnjgdafmfjjao) and related materials.
+The matching userscript is GmailHighwayCarrier411MCBadges.user.js in the
+PjSkip/TamperMonkeyScripts repository.
+
+This documentation and the related software are proprietary to ShipSierra.com.
 
 Copying, modification, or redistribution of this source, in whole or in part,
 is not allowed without prior written permission from ShipSierra.com.
 
-Use of an installed copy of these scripts by authorized ShipSierra personnel
-is permitted. No other license is granted.
+Use of an installed copy of the tool by authorized ShipSierra personnel
+is permitted. No other license is granted. There is no open-source license
+and no redistribution right for third parties.
