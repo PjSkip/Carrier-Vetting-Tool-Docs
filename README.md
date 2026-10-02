@@ -3,23 +3,27 @@
 Copyright (c) 2026 **ShipSierra.com**. All rights reserved.
 Developer: **Ivan Karpenko**.
 
-Documentation for the **Carrier Vetting Tool in Gmail (Highway.com and Carrier411)** Chrome extension (item ID `hpejmgmlnjcfjccehkdgnjgdafmfjjao`) and the matching Tampermonkey userscript.
+Chrome extension and matching Tampermonkey userscript that scans open Gmail threads for MC numbers and shows Highway and Carrier411 carrier-vetting results without leaving the inbox.
+
+- **Full name:** Carrier Vetting Tool in Gmail (Highway.com and Carrier411)
+- **Chrome Web Store item ID:** `hpejmgmlnjcfjccehkdgnjgdafmfjjao`
+- **Userscript version:** 2026.39.4.1 (October 1, 2026)
+- **Userscript file:** [GmailHighwayCarrier411MCBadges.user.js](https://github.com/PjSkip/TamperMonkeyScripts/blob/main/GmailHighwayCarrier411MCBadges.user.js)
 
 ## What it does
 
-- Finds MC numbers in open Gmail threads
-- Pulls Highway and Carrier411 carrier details using the user's logged-in browser sessions
-- Shows a badges / results bar (pass/fail, power units, safety, insurance, FreightGuard, email match, copy helpers, settings, same-day local cache)
+- Finds MC numbers in open Gmail messages and threads
+- Pulls carrier details using your already signed-in Highway and Carrier411 browser sessions
+- Shows a results bar / badges covering pass/fail, power units, safety, identity alerts, Do Not Use, email match, FreightGuard, and freight loss (and related fields you enable in Settings)
+- Settings open from the truck icon
+- Keeps a same-day local cache so the same MC is not looked up repeatedly while you work
 - Also runs on Highway broker and Carrier411 pages to keep sessions and claims in sync
 
-## Source script
+Network calls go only to Highway (`highway.com`) and Carrier411. There is no Stripe integration and no paywall in the tool.
 
-Userscript (version **2026.39.4.1**):
-[GmailHighwayCarrier411MCBadges.user.js](https://github.com/PjSkip/TamperMonkeyScripts/blob/main/GmailHighwayCarrier411MCBadges.user.js)
+## Docs in this repository
 
-## Docs in this repo
+- [PRIVACY.md](PRIVACY.md)
+- [LICENSE](LICENSE)
 
-- [PRIVACY.md](PRIVACY.md) - privacy policy
-- [LICENSE](LICENSE) - proprietary license
-
-This documentation and the related software are proprietary. Copying, modification, or redistribution of the source is not allowed. See [LICENSE](LICENSE).
+This documentation and the related software are proprietary to ShipSierra.com. Copying, modification, or redistribution of the source is not allowed. See [LICENSE](LICENSE).
